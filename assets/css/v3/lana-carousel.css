@@ -1,0 +1,162 @@
+/* ==Carousel */
+/* ----------------------------------------------- */
+.carousel .carousel-indicators li {
+    margin: 1px;
+}
+
+.carousel .carousel-indicators li.active {
+    margin: 0;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ==Carousel --Simple */
+/* ----------------------------------------------- */
+.carousel-simple .carousel-caption {
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 0 0 10px 25px;
+    color: #fff;
+    text-align: left;
+}
+
+.carousel-simple .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    margin: 0;
+    padding: 0 25px 25px 0;
+    text-align: right;
+}
+
+.carousel-simple .carousel-control.left,
+.carousel-simple .carousel-control.right {
+    background-image: none;
+}
+
+/* ==Carousel --Navy */
+/* ----------------------------------------------- */
+.carousel-navy .carousel-indicators .active {
+    background-color: #2487ca;
+}
+
+.carousel-navy .carousel-control {
+    width: 0;
+}
+
+.carousel-navy .carousel-control.left,
+.carousel-navy .carousel-control.right {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    background-image: none;
+    background-repeat: no-repeat;
+    text-shadow: none;
+}
+
+.carousel-navy .carousel-control.left span,
+.carousel-navy .carousel-control.right span {
+    padding: 16px 10px;
+}
+
+.carousel-navy .carousel-control .glyphicon-chevron-left,
+.carousel-navy .carousel-control .icon-prev {
+    margin-left: 0;
+}
+
+.carousel-navy .carousel-control .glyphicon-chevron-right,
+.carousel-navy .carousel-control .icon-prev {
+    margin-right: 0;
+}
+
+.carousel-navy .carousel-control .glyphicon-chevron-left,
+.carousel-navy .carousel-control .glyphicon-chevron-right,
+.carousel-navy .carousel-control .icon-prev,
+.carousel-navy .carousel-control .icon-next {
+    position: absolute;
+    z-index: 5;
+    width: 50px;
+    height: 65px;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .carousel-navy .carousel-control .glyphicon-chevron-left,
+    .carousel-navy .carousel-control .glyphicon-chevron-right,
+    .carousel-navy .carousel-control .icon-prev,
+    .carousel-navy .carousel-control .icon-next {
+        height: 50px;
+    }
+}
+
+.carousel-navy .carousel-control .glyphicon-chevron-left,
+.carousel-navy .carousel-control .icon-prev {
+    left: 0;
+}
+
+.carousel-navy .carousel-control .glyphicon-chevron-right,
+.carousel-navy .carousel-control .icon-next {
+    right: 0;
+}
+
+.carousel-navy .carousel-control.left span,
+.carousel-navy .carousel-control.right span {
+    background-color: #000;
+}
+
+.carousel-navy .carousel-control.left span:hover,
+.carousel-navy .carousel-control.right span:hover {
+    background-color: #2487ca;
+}
+
+.carousel-navy .carousel-caption h3 {
+    font-size: 40px;
+    background-color: #2487ca;
+    padding: 15px;
+    margin: 10px 30px;
+}
+
+.carousel-navy .carousel-caption p {
+    font-size: 18px;
+    background-color: #000;
+    padding: 15px;
+}
+
+/* ==Carousel --Side */
+/* ----------------------------------------------- */
+.carousel-side {
+    position: relative;
+}
+
+.carousel-side .carousel-caption {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #000;
+    text-shadow: none;
+}
+
+.carousel-side .controllers {
+    position: absolute;
+    top: 0;
+}
+
+.carousel-side .carousel-control.left,
+.carousel-side .carousel-control.right {
+    background-image: none;
+}
